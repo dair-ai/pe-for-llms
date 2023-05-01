@@ -9,3 +9,4 @@ notebooks/__pycache__/
 notebooks/data/state_of_the_union.txt
 notebooks/session-2/chroma_logs.log
 notebooks/session-2/.chroma/
+notebooks/data/prompts.jsonl
