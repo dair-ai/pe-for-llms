@@ -10,4 +10,6 @@ notebooks/data/state_of_the_union.txt
 notebooks/session-2/chroma_logs.log
 notebooks/session-2/.chroma/
 notebooks/data/prompts.jsonl
+notebooks/session-4/chat-your-data/
 .DS_Store
+notebooks/.DS_Store
