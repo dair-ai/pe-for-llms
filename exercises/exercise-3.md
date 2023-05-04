@@ -1,20 +1,9 @@
-## Session 3 Exercises (60 minutes)
+## Session 3 Exercises (Duration: 30 - 60 minutes)
 
-Involves a ~60-minute exercise. This is a take-home exercise. Use OpenAI fine-tuning endpoints.
+Try to complete as many of the exercises below. Use the `demo-3.1` notebook for completing the following exercises.
 
-### Activities/Exercises
-Choose a dataset for learners to fine-tune their model
-Evaluate it
+1) Try to improve the performance of zero-shot prompting for the emotion classification task based on the techniques we learned in the previous sessions.
 
-### Tasks
+2) Implement a few-shot prompting approach and perform a performance comparison with the finetuned models and other prompting techniques. Try to see if you can close the performance gap between the finetuned model. 
 
-1)
-2)
-3)
-4)
-5)
-6)
-7)
-8)
-9)
-10)
+3) Besides the prompting techniques, use different models like `gpt-3.5-turbo` and `gpt-4` (if you have access). Compare the results from those models to your finetuned model and across different prompting techniques.

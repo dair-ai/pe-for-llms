@@ -1,9 +1,9 @@
-## Session 2 Exercises (10-15 minutes)
+## Session 2 Exercises (DurationL 10-15 minutes)
 
-Try to complete as many of the exercises below. Use the OpenAI playground for this exercise or the `demo-1.1.ipynb` notebook.
+Try to complete as many of the exercises below. Use the notebooks covered during session 2 for guidance and hints.
 
 
-1) Modify the prompt below to include demonstrations. Include this as a `input_variable`. Make sure include some examples and test that it works.
+1) Modify the prompt below to include demonstrations. Include demonstrations as an `input_variable`. Make sure include some examples and test that it works.
 
 ```python
 multiple_template = """

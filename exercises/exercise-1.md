@@ -1,4 +1,4 @@
-## Session 1 Exercises (10-15 minutes)
+## Session 1 Exercises (Duration: 10-15 minutes)
 
 Try to complete as many of the exercises below. Use the OpenAI playground for this exercise or the `demo-1.1.ipynb` notebook.
 
