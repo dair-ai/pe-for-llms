@@ -1,0 +1,16 @@
+name: pe_for_llms
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - openai
+  - langchain
+  - python-dotenv
+  - notebook
+  - ipython
+  - chromadb
+  - google-api-python-client
+  - google-auth-httplib2
+  - google-auth-oauthlib
