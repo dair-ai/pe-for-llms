@@ -26,15 +26,13 @@ cd pe-for-llms
 
 ### Conda
 
-We recommend using conda to manage your Python environment. If you don't have conda, you can install it [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
+If you don't have conda, you can install it [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/).
 
-Once installed, run the following command to create a new environment called `pe-for-llms`. This environment will have all the required dependencies to run the notebooks and exercises.
+Once installed, run the following command to create a new environment called `pe-for-llms`. 
 
 ```sh
-conda env create -f environment.yml
+conda create -n pe-for-llms
 ```
-
-This may take a few minutes. 
 
 Next, activate the conda environment.
 
@@ -42,13 +40,26 @@ Next, activate the conda environment.
 conda activate pe-for-llms
 ```
 
+Finally, add the kernel to Jupyter.
+
+```sh
+python -m ipykernel install --user --name pe-for-llms
+```
+
 ### Python environment
 
 If you don't want to use conda, you can create a virtual environment using Python's `venv` module.
 
 ```sh
-python3 -m venv pe-for-llms
+python3 -m venv .venv
 ```
+
+Next, activate your environment (the command below is for Linux)
+```sh
+source .venv/bin/activate
+```
+
+## 3. Install the packages
 
 Next, install the dependencies inside the requirements.txt file.
 
