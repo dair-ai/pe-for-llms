@@ -1,8 +1,8 @@
 ## Session 1 Exercises (Duration: 10-15 minutes)
 
-Try to complete as many of the exercises below. Use the OpenAI playground for this exercise or the `demo-1.1.ipynb` notebook.
+Use the OpenAI playground to complete the exercise below. Use the slides or notebooks for tips and guidance. 
 
-1) Use the OpenAI playground to test the prompt below and try different temperature values. Try with high temperature values and a temperature value of `0`. Do you see any differences in the outputs?
+1) Test the prompt below and try different temperature values. Try with high temperature values and a temperature value of `0`. Do you see any differences in the outputs?
 
 ```
 The ski is
@@ -28,7 +28,7 @@ Question: What was OKT3 originally sourced from?
 Answer:
 ```
 
-4) Modify the prompt below to instruct the model to provide any explanation to the answer selected.
+4) Modify the prompt below to instruct the model to provide an explanation to the answer selected.
 
 ```
 Classify the text into neutral, negative or positive.
@@ -97,7 +97,7 @@ Merely this, and nothing more.
 Adding all the numbers in odd positions will add up to an even number: 4, 8, 9, 15, 12, 2, 1.
 ```
 
-9) Test zero-shot CoT prompt, "Let's think step-by-step", on the same prompt above and observe if it helps to elicit an accurate response from the model. Think of any way you can improve the consistency further.
+9) Test zero-shot CoT prompting, "Let's think step-by-step", on the same prompt above and observe if it helps to elicit an accurate response from the model. Think of any way you can improve the consistency further.
 
 ```
 Adding all the numbers in odd positions will add up to an even number: 4, 8, 9, 15, 12, 2, 1.
