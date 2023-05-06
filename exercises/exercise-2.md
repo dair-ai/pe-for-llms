@@ -1,6 +1,6 @@
-## Session 2 Exercises (DurationL 10-15 minutes)
+## Session 2 Exercises (Duration 10-15 minutes)
 
-Try to complete as many of the exercises below. Use the notebooks covered during session 2 for guidance and hints.
+Complete the following exercises based on what you have learned in Session 2. Use the notebooks/slides covered during Session 2 for tips and guidance.
 
 
 1) Modify the prompt below to include demonstrations. Include demonstrations as an `input_variable`. Make sure include some examples and test that it works.

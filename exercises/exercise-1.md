@@ -102,3 +102,23 @@ Adding all the numbers in odd positions will add up to an even number: 4, 8, 9, 
 ```
 Adding all the numbers in odd positions will add up to an even number: 4, 8, 9, 15, 12, 2, 1.
 ```
+
+10) Below is a description of a made-up event. Prepare a prompts that extracts information like what the event is about, name of event, date, activities, location, etc. Try to elicit the model to extract concise answers like "July 15th to July 16th" when asking for the event date. In addition, format the response as a JSON object in the following format: `[{"key":"value"},{"key":"value"},...{"key":"value"}]`. Use the example in `demo-1.3.ipynb` for inspiration on how to compose your prompt.
+
+```
+Summer Beats Festival
+
+The event will be held at the beautiful seaside location of Ocean Park in Miami, Florida.
+
+The festival will take place over two days, from July 15th to July 16th.
+
+The Summer Beats Festival will feature a fantastic lineup of popular musical artists and bands from a variety of genres. Attendees can expect to dance and sing along to live performances from headliners such as Taylor Swift, Bruno Mars, and Post Malone. In addition to the main stage, there will be several smaller stages scattered throughout the park featuring up-and-coming artists and DJs.
+
+The festival will also offer a wide variety of food and drink options for attendees to enjoy. From classic festival fare like hot dogs and funnel cakes to more gourmet offerings like sushi and craft beer, there will be something to suit every taste.
+
+Families with children are welcome, and there will be plenty of activities to keep the little ones entertained. The festival will offer a dedicated children's area with carnival games, face painting, and other fun activities.
+
+For those looking for a more luxurious experience, the Summer Beats Festival will also offer a VIP area with premium viewing of the main stage, private bars, and lounges, and other exclusive perks.
+
+Overall, the Summer Beats Festival promises to be an unforgettable event for music lovers of all ages. With a stunning location, a great lineup of artists, and plenty of activities and amenities, it's sure to be the highlight of the summer!
+```
