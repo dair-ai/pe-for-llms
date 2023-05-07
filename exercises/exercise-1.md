@@ -1,8 +1,8 @@
 ## Session 1 Exercises (Duration: 10-15 minutes)
 
-Use the OpenAI playground to complete the exercise below. Use the slides or notebooks for tips and guidance. 
+Use the OpenAI playground to complete the exercises below. Use the slides and notebooks for tips and guidance. 
 
-1) Test the prompt below and try different temperature values. Try with high temperature values and a temperature value of `0`. Do you see any differences in the outputs?
+1) Test the prompt below and try different temperature values. Try with high temperature values, including a temperature value of `0`. Do you see any differences in the outputs?
 
 ```
 The ski is
@@ -28,7 +28,7 @@ Question: What was OKT3 originally sourced from?
 Answer:
 ```
 
-4) Modify the prompt below to instruct the model to provide an explanation to the answer selected.
+4) Modify the prompt below to instruct the model to provide an explanation for the answer selected.
 
 ```
 Classify the text into neutral, negative or positive.
@@ -44,8 +44,8 @@ Sentiment:
 The following is a conversation with an AI research assistant. The assistant tone is technical and scientific.
 
 Human: Hello, who are you?
-AI: Greeting! I am an AI research assistant. How can I help you today?
-Human: Can you tell me about the creation of blackholes?
+AI: Greetings! I am an AI research assistant. How can I help you today?
+Human: Can you tell me about the creation of black holes?
 AI:
 ```
 
@@ -97,13 +97,13 @@ Merely this, and nothing more.
 Adding all the numbers in odd positions will add up to an even number: 4, 8, 9, 15, 12, 2, 1.
 ```
 
-9) Test zero-shot CoT prompting, "Let's think step-by-step", on the same prompt above and observe if it helps to elicit an accurate response from the model. Think of any way you can improve the consistency further.
+9) Test zero-shot CoT prompting, "Let's think step-by-step", on the same prompt above, and observe if it helps to elicit an accurate response from the model. Think of any other way you can improve the consistency further.
 
 ```
 Adding all the numbers in odd positions will add up to an even number: 4, 8, 9, 15, 12, 2, 1.
 ```
 
-10) Below is a description of a made-up event. Prepare a prompts that extracts information like what the event is about, name of event, date, activities, location, etc. Try to elicit the model to extract concise answers like "July 15th to July 16th" when asking for the event date. In addition, format the response as a JSON object in the following format: `[{"key":"value"},{"key":"value"},...{"key":"value"}]`. Use the example in `demo-1.3.ipynb` for inspiration on how to compose your prompt.
+10) Below is a description of a made-up event. Prepare a prompt that extracts information like what the event is about, the name of the event, date, activities, location, etc. Try to elicit the model to extract concise answers like "July 15th to July 16th" when asking for the event date. In addition, format the response as a JSON object in the following format: `[{"key":"value"},{"key":"value"},...{"key":"value"}]`. Use the example in `demo-1.3.ipynb` for inspiration on how to compose your prompt.
 
 ```
 Summer Beats Festival
