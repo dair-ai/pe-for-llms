@@ -2,7 +2,20 @@
 
 Welcome to the notebooks and exercises for the Prompt Engineering for LLMs course.
 
-## 1. Check out the repo
+## 1. Sign up for Openai and Serp API
+
+To run the notebooks in this repo, you are required to sign up for an OpenAI paid account, as well as a free serpapi account. 
+
+### OpenAI
+
+Sign up a paid account here: https://platform.openai.com/. Once done, you can generate an API key.
+
+### Serp API
+
+Sign up a free account here: https://serpapi.com/. You will need to verify your email address as well as enter a phone number. 
+Once done, you can generate an API key 
+
+## 2. Check out the repo
 
 ```sh
 git clone https://github.com/dair-ai/pe-for-llms.git
@@ -22,7 +35,7 @@ If you have downloaded the zipped file instead, unzip it and go into the directo
 cd pe-for-llms
 ```
 
-## 2. Setup the environment
+## 3. Setup the environment
 
 ### Conda
 
@@ -59,7 +72,7 @@ Next, activate your environment (the command below is for Linux)
 source .venv/bin/activate
 ```
 
-## 3. Install the packages
+## 4. Install the packages
 
 Next, install the dependencies inside the requirements.txt file.
 
