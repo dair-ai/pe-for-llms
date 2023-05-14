@@ -1,6 +1,6 @@
 ## Session 3 Exercises (Duration: 30 - 60 minutes)
 
-Try to complete as many of the exercises below. Use the `demo-3.1` notebook for completing the following exercises.
+Complete the following exercises. 
 
 1) Try to improve the performance of zero-shot prompting for the emotion classification task based on the techniques we learned in the previous sessions.
 
